@@ -2,7 +2,7 @@ body {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   margin: 0;
-  padding: 20px;
+
 }
 
 h1 {
@@ -26,10 +26,22 @@ h2, .views-field-title {
     color: $purple;
   }
 }
+
 h2.block__title {
   clear: both;
   font-size: 3em;
   text-transform: uppercase;
+}
+
+h2.big {
+  display: none;
+  @include breakpoint(600px, true) {
+    display: block;
+    font-size: 2.5em;
+    font-weight: 100px;
+    margin-bottom: 30px;
+    color: $purple;
+  }
 }
 
 a {

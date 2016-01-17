@@ -17,4 +17,18 @@
 
 #block-views-blog-block-1 {
   clear:both;
+
+  h1 {
+    font-size: 1.3em;
+    margin-bottom: 20px;
+
+    @include breakpoint(650px, true) {
+      font-size: 3em;
+    }
+
+    @include breakpoint(800px, true) {
+      margin-top: 20px;
+    }
+
+  }
 }

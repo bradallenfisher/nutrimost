@@ -1,16 +1,17 @@
-<div class="header">
-  <a href="/">NUTRIMOST<span>RECIPES</span></a>
-</div>
-
 <div class="menu-expander">
   <i class="fa fa-bars"></i>
+</div>
+
+<div class="page">
+  <div class="header">
+  <a href="/">NUTRIMOST<span>RECIPES</span></a>
 </div>
 
 <div class="navigation">
   <?php print render($page['menu']);?>
 </div>
 
-<div class="page">
+
   <?php print $messages; ?>
   <?php print render($tabs); ?>
 

@@ -2,9 +2,12 @@
   color: $purple;
   font-family: 'Anton', sans-serif;
   font-weight: 400;
+  position: absolute;
+  top: 0;
 
   @include breakpoint($show-menu, true) {
     text-align: center;
+    position: relative;
   }
 
   @include breakpoint($header-left, true) {

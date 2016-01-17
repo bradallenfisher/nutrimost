@@ -1,0 +1,14 @@
+.notice {
+    border: 1px solid $purple;
+    background: #f9f9f9;
+    font-style: italic;
+    font-weight: 100;
+    padding: 13px;
+    margin:2px;
+  @include breakpoint(600px, true) {
+    border: 5px solid $purple;
+    margin:10px 10px 40px 10px;
+    padding: 18px 50px;
+
+  }
+}

@@ -75,8 +75,7 @@ img, media {
 body {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
-  margin: 0;
-  padding: 20px; }
+  margin: 0; }
 
 /* line 8, ../sass/_base/_elements.scss */
 h1 {
@@ -98,38 +97,50 @@ h2, .views-field-title {
   h2 a:hover, .views-field-title a:hover {
     color: #9E599E; }
 
-/* line 29, ../sass/_base/_elements.scss */
+/* line 30, ../sass/_base/_elements.scss */
 h2.block__title {
   clear: both;
   font-size: 3em;
   text-transform: uppercase; }
 
-/* line 35, ../sass/_base/_elements.scss */
+/* line 36, ../sass/_base/_elements.scss */
+h2.big {
+  display: none; }
+  @media (min-width: 600px) {
+    /* line 36, ../sass/_base/_elements.scss */
+    h2.big {
+      display: block;
+      font-size: 2.5em;
+      font-weight: 100px;
+      margin-bottom: 30px;
+      color: #9E599E; } }
+
+/* line 47, ../sass/_base/_elements.scss */
 a {
   text-decoration: none;
   cursor: pointer; }
 
 /* unvisited link */
-/* line 41, ../sass/_base/_elements.scss */
+/* line 53, ../sass/_base/_elements.scss */
 a:link {
   color: #9E599E; }
 
 /* visited link */
-/* line 46, ../sass/_base/_elements.scss */
+/* line 58, ../sass/_base/_elements.scss */
 a:visited {
   color: #9E599E; }
 
 /* mouse over link */
-/* line 51, ../sass/_base/_elements.scss */
+/* line 63, ../sass/_base/_elements.scss */
 a:hover {
   color: #678F00; }
 
 /* selected link */
-/* line 56, ../sass/_base/_elements.scss */
+/* line 68, ../sass/_base/_elements.scss */
 a:active {
   color: #9E599E; }
 
-/* line 60, ../sass/_base/_elements.scss */
+/* line 72, ../sass/_base/_elements.scss */
 a.open, a.close {
   font-size: 1.6em;
   display: block;
@@ -137,40 +148,40 @@ a.open, a.close {
   margin: 20px 0;
   color: #9E599E; }
 
-/* line 68, ../sass/_base/_elements.scss */
+/* line 80, ../sass/_base/_elements.scss */
 p {
   margin-bottom: 10px;
   line-height: 1.5;
   color: black; }
 
-/* line 73, ../sass/_base/_elements.scss */
+/* line 85, ../sass/_base/_elements.scss */
 .pager {
   padding: 10px;
   margin: 40px 0px; }
 
-/* line 78, ../sass/_base/_elements.scss */
+/* line 90, ../sass/_base/_elements.scss */
 .content, .side {
   padding: 0 2px; }
 
-/* line 82, ../sass/_base/_elements.scss */
+/* line 94, ../sass/_base/_elements.scss */
 .a2a_kit {
   margin: 5px;
   display: block; }
 
-/* line 87, ../sass/_base/_elements.scss */
+/* line 99, ../sass/_base/_elements.scss */
 ol {
   list-style-type: decimal;
   list-style-position: inside;
   margin-bottom: 20px !important; }
-  /* line 92, ../sass/_base/_elements.scss */
+  /* line 104, ../sass/_base/_elements.scss */
   ol li {
     padding: 10px; }
 
-/* line 97, ../sass/_base/_elements.scss */
+/* line 109, ../sass/_base/_elements.scss */
 img, media {
   max-width: 100%; }
 
-/* line 100, ../sass/_base/_elements.scss */
+/* line 112, ../sass/_base/_elements.scss */
 .user-login {
   clear: both; }
 
@@ -398,7 +409,8 @@ img, media {
 
 /* line 36, ../sass/_modules/_ads.scss */
 #block-block-11 {
-  padding: 20px; }
+  clear: both;
+  max-height: 70px; }
 
 /* line 1, ../sass/_modules/_adtoany.scss */
 .views-field-addtoany-link {
@@ -423,6 +435,22 @@ img, media {
 /* line 18, ../sass/_modules/_blog.scss */
 #block-views-blog-block-1 {
   clear: both; }
+  /* line 21, ../sass/_modules/_blog.scss */
+  #block-views-blog-block-1 h1 {
+    font-size: 1.3em;
+    margin-bottom: 20px; }
+    @media (min-width: 650px) {
+      /* line 21, ../sass/_modules/_blog.scss */
+      #block-views-blog-block-1 h1 {
+        font-size: 3em; } }
+    @media (min-width: 800px) {
+      /* line 21, ../sass/_modules/_blog.scss */
+      #block-views-blog-block-1 h1 {
+        margin-top: 20px; } }
+
+/* line 1, ../sass/_modules/_drkelly.scss */
+#block-block-1 {
+  padding: 20px; }
 
 /* line 2, ../sass/_modules/_filters.scss */
 label[for=edit-field-category-value] {
@@ -586,45 +614,48 @@ label[for=edit-field-food-type-value]:hover {
 .header {
   color: #9E599E;
   font-family: 'Anton', sans-serif;
-  font-weight: 400; }
+  font-weight: 400;
+  position: absolute;
+  top: 0; }
   @media (min-width: 750px) {
     /* line 1, ../sass/_modules/_header.scss */
     .header {
-      text-align: center; } }
+      text-align: center;
+      position: relative; } }
   @media (min-width: 1100px) {
     /* line 1, ../sass/_modules/_header.scss */
     .header {
       text-align: left;
       margin-bottom: 20px; } }
-  /* line 15, ../sass/_modules/_header.scss */
+  /* line 18, ../sass/_modules/_header.scss */
   .header a {
     font-size: 2.4em; }
     @media (min-width: 450px) {
-      /* line 15, ../sass/_modules/_header.scss */
+      /* line 18, ../sass/_modules/_header.scss */
       .header a {
         font-size: 3.2em; } }
     @media (min-width: 600px) {
-      /* line 15, ../sass/_modules/_header.scss */
+      /* line 18, ../sass/_modules/_header.scss */
       .header a {
         font-size: 3.8em; } }
     @media (min-width: 700px) {
-      /* line 15, ../sass/_modules/_header.scss */
+      /* line 18, ../sass/_modules/_header.scss */
       .header a {
         font-size: 4.5em; } }
     @media (min-width: 750px) {
-      /* line 15, ../sass/_modules/_header.scss */
+      /* line 18, ../sass/_modules/_header.scss */
       .header a {
         font-size: 6em; } }
     @media (min-width: 1100px) {
-      /* line 15, ../sass/_modules/_header.scss */
+      /* line 18, ../sass/_modules/_header.scss */
       .header a {
         font-size: 3em;
         text-align: left; } }
     @media (min-width: 1350px) {
-      /* line 15, ../sass/_modules/_header.scss */
+      /* line 18, ../sass/_modules/_header.scss */
       .header a {
         font-size: 3.7em; } }
-  /* line 38, ../sass/_modules/_header.scss */
+  /* line 41, ../sass/_modules/_header.scss */
   .header span {
     color: #678F00; }
 
@@ -776,6 +807,26 @@ h6 {
 .field--name-body {
   padding: 20px; }
 
+/* line 1, ../sass/_modules/_notice.scss */
+.notice {
+  border: 1px solid #9E599E;
+  background: #f9f9f9;
+  font-style: italic;
+  font-weight: 100;
+  padding: 13px;
+  margin: 2px; }
+  @media (min-width: 600px) {
+    /* line 1, ../sass/_modules/_notice.scss */
+    .notice {
+      border: 5px solid #9E599E;
+      margin: 10px 10px 40px 10px;
+      padding: 18px 50px; } }
+
+/* line 1, ../sass/_modules/_page.scss */
+.page {
+  clear: both;
+  padding: 20px; }
+
 /* line 3, ../sass/_modules/_recipes.scss */
 .page-nutrimost-phase2-recipes h1, .section-nutrimost-phase4-recipes h1, .section-nutrimost-beyond-recipes h1 {
   color: #663967;
@@ -839,14 +890,18 @@ h6 {
 
 /* line 1, ../sass/_modules/_search.scss */
 .search-block-form {
-  padding: 20px; }
+  padding-bottom: 20px; }
+  @media (min-width: 1300px) {
+    /* line 1, ../sass/_modules/_search.scss */
+    .search-block-form {
+      padding: 0; } }
 
-/* line 4, ../sass/_modules/_search.scss */
+/* line 8, ../sass/_modules/_search.scss */
 input#edit-search-block-form--2 {
   width: 64%;
   padding: 10px; }
 
-/* line 9, ../sass/_modules/_search.scss */
+/* line 13, ../sass/_modules/_search.scss */
 input[type="submit"] {
   background: #9E599E;
   border: 2px solid #9E599E;
@@ -855,17 +910,17 @@ input[type="submit"] {
   padding: 10px;
   width: 35%; }
 
-/* line 18, ../sass/_modules/_search.scss */
+/* line 22, ../sass/_modules/_search.scss */
 html.js .form-autocomplete {
   background-image: none;
   background-repeat: no-repeat; }
 
-/* line 23, ../sass/_modules/_search.scss */
+/* line 27, ../sass/_modules/_search.scss */
 .ui-theme-basic-green.ui-autocomplete-input {
   background-image: none;
   background-repeat: no-repeat; }
 
-/* line 28, ../sass/_modules/_search.scss */
+/* line 32, ../sass/_modules/_search.scss */
 .ui-theme-basic-green.ui-autocomplete-loading {
   background-image: none;
   background-repeat: no-repeat; }
