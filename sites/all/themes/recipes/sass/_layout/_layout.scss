@@ -1,0 +1,78 @@
+.header {
+   @include span(10 of 12);
+
+   @include breakpoint($show-menu, true) {
+     @include span(12);
+   }
+
+   @include breakpoint($header-left, true) {
+     @include span(4 of 12);
+   }
+}
+
+.navigation {
+   @include breakpoint($show-menu, true) {
+     @include span(12);
+   }
+
+   @include breakpoint($header-left, true) {
+     @include span(8 at 5 of 12);
+   }
+}
+.menu-expander {
+  @include span(2 of 12 last);
+}
+
+@include breakpoint($tablet, true) {
+  .content {
+    @include span(9 of 12);
+  }
+
+  .side {
+    @include span(3 at 10 of 12);
+  }
+}
+
+#edit-field-category-value-wrapper {
+  @include span(6 of 12);
+}
+
+#edit-field-food-type-value-wrapper {
+
+  @include span(6 of 12 last);
+}
+
+.image {
+  @include breakpoint($med-small, true) {
+    @include span(6 of 12);
+  }
+}
+.text {
+  @include breakpoint($med-small, true) {
+   @include span(6 of 12 last);
+  }
+}
+
+@include breakpoint($larger, true) {
+  #block-block-11 {
+  @include span(6 of 12 last);
+}
+
+#block-search-form {
+  @include span(6 of 12);
+
+}
+  .not-front.page-node {
+
+    @include breakpoint($larger, true) {
+      #block-block-9 {
+        @include span(6 of 12 last);
+      }
+
+      #block-block-12 {
+        @include span(6 of 12);
+      }
+    }
+  }
+}
+

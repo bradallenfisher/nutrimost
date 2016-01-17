@@ -1,0 +1,102 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+ clear: both;
+}
+
+h2 {
+  a {
+    display: block;
+    font-size: 1.5em;
+    margin: 5px;
+  }
+}
+
+h2, .views-field-title {
+  text-transform: uppercase;
+  a:link, a:visited, a:active{
+    color: #444;
+  }
+  a:hover {
+    color: $purple;
+  }
+}
+h2.block__title {
+  clear: both;
+  font-size: 3em;
+  text-transform: uppercase;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* unvisited link */
+a:link {
+  color: $a-link;
+}
+
+/* visited link */
+a:visited {
+  color: $a-visited;
+}
+
+/* mouse over link */
+a:hover {
+  color: $a-hover;
+}
+
+/* selected link */
+a:active {
+  color: $a-active;
+}
+
+a.open, a.close {
+  font-size: 1.6em;
+  display:block;
+  padding: 10px;
+  margin: 20px 0;
+  color: $highlight;
+}
+
+p {
+  margin-bottom: 10px;
+  line-height: 1.5;
+  color: black;
+}
+.pager {
+  padding: 10px;
+  margin: 40px 0px;
+}
+
+.content, .side {
+  padding: 0 2px;
+}
+
+.a2a_kit {
+  margin: 5px;
+  display: block;
+}
+
+ol {
+  list-style-type: decimal;
+  list-style-position: inside;
+  margin-bottom: 20px !important;
+
+  li {
+    padding: 10px;
+
+  }
+}
+img, media {
+  max-width: 100%;
+}
+.user-login {
+  clear: both;
+}

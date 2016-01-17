@@ -1,0 +1,61 @@
+.page-nutrimost-phase2-recipes, .section-nutrimost-phase4-recipes, .section-nutrimost-beyond-recipes {
+
+  h1 {
+    color: $dark-purple;
+    display: block;
+    font-family: 'Roboto';
+    font-size: 2.1em;
+    font-weight: 100;
+    margin-bottom: 2px;
+    padding:2px;
+  }
+}
+
+.view-recipes {
+
+  .view-content {
+    @include flexbox();
+    @include flow();
+    @include spacebetween();
+
+    .views-row {
+      clear:both;
+      margin-bottom: 10px;
+      display: inline-block;
+      width: 100%;
+      border-bottom: 1px solid $lightgreen;
+      padding-bottom: 30px;
+
+      @include breakpoint(450px, true) {
+        width: 49%;
+      }
+
+      @include breakpoint(550px, true) {
+        width: 33%;
+      }
+
+      @include breakpoint(1180px, true){
+        width: 24%;
+      }
+
+      @include breakpoint($larger, true){
+        width: 16.3%;
+      }
+
+
+
+    .views-field-title {
+      padding: 10px 0 10px 0 ;
+
+      a {
+         font-size: 1.1em;
+        }
+      }
+    }
+  }
+}
+
+.print-link {
+  text-align: left;
+  padding-bottom: 0;
+}

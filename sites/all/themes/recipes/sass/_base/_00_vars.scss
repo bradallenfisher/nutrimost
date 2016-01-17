@@ -1,0 +1,54 @@
+$purple: #9E599E;
+$dark-purple: #663967;
+$darkgreen: #678F00;
+$medgreen: #98AE00;
+$lightgreen: #BFD01E;
+//Links
+
+$a-link:#9E599E;
+$a-visited:#9E599E;
+$a-active:#9E599E;
+$a-hover:#678F00;
+
+//Backgrounds
+$dark: #000;
+$medium: #666666;
+$med-light: #999999;
+$shade: #e1e1e1;
+$light: #ffffff;
+$highlight: #9E599E;
+
+// set up susy layout
+$total-columns:   12;
+$container-width: 1200px;
+
+// $debug is either "show" or "hide"
+$debug: hide;
+
+$susy: (
+  columns: $total-columns,
+  gutters: 1/6,
+  container: $container-width,
+  box-sizing: border-box,
+  math: fluid,
+
+  debug: (
+    image: $debug,
+    color: rgba(#66f, .25),
+    output: background,
+    toggle: top right,
+  ),
+);
+
+$port: 360px;
+$med-small: 630px;
+$show-menu: 750px;
+$tablet: 768px;
+$large: 1050px;
+$header-left:1100px;
+$larger:1300px;
+$bigger-header-left: 1350px;
+// Legacy support.
+$legacy-support-for-ie6: false;
+$legacy-support-for-ie7: true;
+$legacy-support-for-ie8: true;

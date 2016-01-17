@@ -1,0 +1,20 @@
+.view-blog {
+  .views-field-title {
+    font-size: 1.3em;
+    @include breakpoint($med-small, true) {
+    float: left;
+    }
+  }
+  .views-field-field-blog-image {
+    text-align: center;
+  }
+  .views-field-body {
+    clear: both;
+    overflow: hidden;
+    padding: 10px;
+  }
+}
+
+#block-views-blog-block-1 {
+  clear:both;
+}

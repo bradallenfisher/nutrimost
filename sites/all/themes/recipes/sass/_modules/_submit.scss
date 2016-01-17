@@ -1,0 +1,27 @@
+.webform-client-form {
+  margin: 0 auto;
+  width: 750px;
+}
+
+.form-managed-file {
+  input[type="submit"] {
+    background: $purple;
+    border:2px solid $purple;
+    color:$light;
+    float: none;
+    padding: 10px;
+    width: inherit;
+  }
+}
+.webform-component {
+
+  input {
+    padding: 7px;
+    border: 1px solid $purple;
+  }
+
+  textarea {
+    padding: 7px;
+    border: 1px solid $purple;
+  }
+}

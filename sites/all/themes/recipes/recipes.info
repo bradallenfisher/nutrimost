@@ -1,0 +1,29 @@
+name = recipes
+description = Please provide a description for your theme.
+base theme = omega
+screenshot = screenshot.png
+engine = phptemplate
+core = 7.x
+
+; ========================================
+; Stylesheets
+; ========================================
+stylesheets[all][] = css/recipes.normalize.css
+stylesheets[all][] = css/recipes.hacks.css
+stylesheets[all][] = css/recipes.styles.css
+stylesheets[all][] = css/recipes.no-query.css
+
+; ========================================
+; Scripts
+; ========================================
+scripts[] = js/recipes.behaviors.js
+scripts[] = js/menu.min.js
+
+; ========================================
+; Regions
+; ========================================
+regions[header] = Header
+regions[menu] = Menu
+regions[content] = Content
+regions[side] = Side
+regions[footer] = Footer

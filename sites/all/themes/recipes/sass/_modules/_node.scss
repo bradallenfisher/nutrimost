@@ -1,0 +1,68 @@
+.node__content {
+  clear: both;
+
+  h1 {
+    font-size: 1.8em;
+    margin: 10px 0;
+  }
+
+  .field--name-field-recipe-image {
+    margin-bottom: 10px;
+
+    img {
+      display:block;
+      width: 100%;
+    }
+  }
+
+  .field--name-field-ingredients {
+    .field__label {
+      border-bottom: 1px solid #ccc;
+      font-size: 1.3em;
+      margin-bottom: 10px;
+      padding-bottom: 10px;
+    }
+  }
+
+  .field--name-field-directions{
+    .field__label {
+      border-bottom: 1px solid #ccc;
+      font-size: 1.3em;
+      margin-bottom: 10px;
+      padding-bottom: 10px;
+    }
+  }
+
+  .field--name-field-servings {
+    margin-bottom: 10px;
+
+    .field__label {
+      font-size: 1.2em;
+    }
+
+    .field__items {
+      font-size: 1.2em;
+    }
+
+  }
+    .field--name-field-calories-per-serving {
+      margin-bottom: 10px;
+
+      .field__label {
+        font-size: 1.2em;
+      }
+
+      .field__items {
+        font-size: 1.2em;
+      }
+    }
+
+  .phase {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+}
+
+.field--name-body {
+  padding: 20px;
+}

@@ -1,0 +1,86 @@
+.navigation {
+  display:none;
+  @include breakpoint($show-menu, true) {
+    display: block !important;
+  }
+}
+.navigation.open {
+  display: block;
+  clear: both;
+  @include breakpoint($show-menu, true) {
+    display: block !important;
+  }
+}
+
+.menu-block-1 {
+
+  ul.menu {
+
+    display: block;
+    width: 100%;
+
+    @include breakpoint($show-menu, true) {
+      @include flexbox();
+      width: inherit;
+    }
+
+    li {
+      @include flexgrow();
+      list-style-image: none;
+      list-style-type: none;
+
+      a {
+        color: #ffffff;
+        display: block;
+        margin-bottom: 2px;
+        padding:  15px;
+        text-align: center;
+        text-transform: uppercase;
+        @include breakpoint($show-menu, true) {
+          font-size: 1.6em;
+        }
+
+
+      }
+
+      a.home {
+        background: $lightgreen;
+      }
+      a.phase2 {
+        background: $medgreen;
+      }
+      a.phase4 {
+        background: $darkgreen;
+      }
+      a.beyond {
+        background: $purple;
+      }
+      a.submit {
+        background: $dark-purple;
+      }
+    }
+  }
+}
+.menu-expander {
+    background: $dark-purple;
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    font-size: 2em;
+    padding:  10px;
+    text-align: center;
+    text-transform: uppercase;
+
+    @include breakpoint(700px, true) {
+      padding: 20px;
+    }
+
+    @include breakpoint($show-menu, true) {
+      display: none !important;
+    }
+}
+
+.menu .leaf {
+    list-style-image:none;
+    list-style-type:none;
+}

@@ -1,0 +1,35 @@
+.view-ads {
+  a {
+
+    @include fittext($min-media: 320px, $max-media: 1400px, $min-font-size: 1em, $max-font-size: 2em, $media-increment: 50, $font-increment: .1, $ratio: 1, $round: false);
+    @include flexbox();
+
+
+    &:link{
+      color: $purple;
+    }
+    &:visited {
+      color: $purple;
+    }
+    &:hover {
+      color: $medgreen;
+    }
+
+    div {
+      padding: 10px;
+    }
+    img {
+      padding: 5px;
+    }
+  }
+}
+
+.block--block-11,
+#block-block-12,
+#block-block-9 {
+  clear:both;
+}
+
+.amzn-item.amzn-shop-now-parent-icon {
+  display: none !important;
+}

@@ -1,0 +1,29 @@
+input#edit-search-block-form--2 {
+  width: 64%;
+  padding: 10px;
+}
+
+input[type="submit"] {
+  background: $purple;
+  border:2px solid $purple;
+  color:$light;
+  float: right;
+  padding: 10px;
+  width: 35%;
+}
+
+html.js .form-autocomplete {
+    background-image: none;
+  //background-position: 100% 25px;
+  background-repeat: no-repeat;
+}
+.ui-theme-basic-green.ui-autocomplete-input {
+  background-image: none;
+  //background-position: 100% 25px;
+  background-repeat: no-repeat;
+}
+.ui-theme-basic-green.ui-autocomplete-loading {
+  background-image: none;
+  //background-position: 100% -10px;
+  background-repeat: no-repeat;
+}
