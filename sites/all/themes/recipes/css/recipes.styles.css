@@ -76,7 +76,7 @@ body {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   margin: 0;
-  padding: 0; }
+  padding: 20px; }
 
 /* line 8, ../sass/_base/_elements.scss */
 h1 {
@@ -387,7 +387,7 @@ img, media {
     padding: 5px; }
 
 /* line 27, ../sass/_modules/_ads.scss */
-.block--block-11,
+#block--block-11,
 #block-block-12,
 #block-block-9 {
   clear: both; }
@@ -395,6 +395,14 @@ img, media {
 /* line 33, ../sass/_modules/_ads.scss */
 .amzn-item.amzn-shop-now-parent-icon {
   display: none !important; }
+
+/* line 36, ../sass/_modules/_ads.scss */
+#block-block-11 {
+  padding: 20px; }
+
+/* line 1, ../sass/_modules/_adtoany.scss */
+.views-field-addtoany-link {
+  clear: both; }
 
 /* line 2, ../sass/_modules/_blog.scss */
 .view-blog .views-field-title {
@@ -586,36 +594,37 @@ label[for=edit-field-food-type-value]:hover {
   @media (min-width: 1100px) {
     /* line 1, ../sass/_modules/_header.scss */
     .header {
-      text-align: left; } }
-  /* line 14, ../sass/_modules/_header.scss */
+      text-align: left;
+      margin-bottom: 20px; } }
+  /* line 15, ../sass/_modules/_header.scss */
   .header a {
     font-size: 2.4em; }
     @media (min-width: 450px) {
-      /* line 14, ../sass/_modules/_header.scss */
+      /* line 15, ../sass/_modules/_header.scss */
       .header a {
         font-size: 3.2em; } }
     @media (min-width: 600px) {
-      /* line 14, ../sass/_modules/_header.scss */
+      /* line 15, ../sass/_modules/_header.scss */
       .header a {
         font-size: 3.8em; } }
     @media (min-width: 700px) {
-      /* line 14, ../sass/_modules/_header.scss */
+      /* line 15, ../sass/_modules/_header.scss */
       .header a {
         font-size: 4.5em; } }
     @media (min-width: 750px) {
-      /* line 14, ../sass/_modules/_header.scss */
+      /* line 15, ../sass/_modules/_header.scss */
       .header a {
         font-size: 6em; } }
     @media (min-width: 1100px) {
-      /* line 14, ../sass/_modules/_header.scss */
+      /* line 15, ../sass/_modules/_header.scss */
       .header a {
         font-size: 3em;
         text-align: left; } }
     @media (min-width: 1350px) {
-      /* line 14, ../sass/_modules/_header.scss */
+      /* line 15, ../sass/_modules/_header.scss */
       .header a {
         font-size: 3.7em; } }
-  /* line 37, ../sass/_modules/_header.scss */
+  /* line 38, ../sass/_modules/_header.scss */
   .header span {
     color: #678F00; }
 
@@ -829,11 +838,15 @@ h6 {
   padding-bottom: 0; }
 
 /* line 1, ../sass/_modules/_search.scss */
+.search-block-form {
+  padding: 20px; }
+
+/* line 4, ../sass/_modules/_search.scss */
 input#edit-search-block-form--2 {
   width: 64%;
   padding: 10px; }
 
-/* line 6, ../sass/_modules/_search.scss */
+/* line 9, ../sass/_modules/_search.scss */
 input[type="submit"] {
   background: #9E599E;
   border: 2px solid #9E599E;
@@ -842,20 +855,24 @@ input[type="submit"] {
   padding: 10px;
   width: 35%; }
 
-/* line 15, ../sass/_modules/_search.scss */
+/* line 18, ../sass/_modules/_search.scss */
 html.js .form-autocomplete {
   background-image: none;
   background-repeat: no-repeat; }
 
-/* line 20, ../sass/_modules/_search.scss */
+/* line 23, ../sass/_modules/_search.scss */
 .ui-theme-basic-green.ui-autocomplete-input {
   background-image: none;
   background-repeat: no-repeat; }
 
-/* line 25, ../sass/_modules/_search.scss */
+/* line 28, ../sass/_modules/_search.scss */
 .ui-theme-basic-green.ui-autocomplete-loading {
   background-image: none;
   background-repeat: no-repeat; }
+
+/* line 1, ../sass/_modules/_side.scss */
+.side {
+  text-align: center; }
 
 /* line 1, ../sass/_modules/_submit.scss */
 .webform-client-form {

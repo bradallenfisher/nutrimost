@@ -9,6 +9,7 @@
 
   @include breakpoint($header-left, true) {
     text-align: left;
+    margin-bottom: 20px;
   }
 
   a {
