@@ -764,7 +764,7 @@ h6 {
 }
 
 .page {
-  border: 1px solid #663967;
+  border-top: 5px solid #663967;
   clear: both;
   padding: 20px;
 }
