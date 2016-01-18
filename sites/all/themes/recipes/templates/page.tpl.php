@@ -4,12 +4,12 @@
 
 <div class="page">
   <div class="header">
-  <a href="/">NUTRIMOST<span>RECIPES</span></a>
-</div>
+    <a href="/">NUTRIMOST<span>RECIPES</span></a>
+  </div>
 
-<div class="navigation">
-  <?php print render($page['menu']);?>
-</div>
+  <div class="navigation">
+    <?php print render($page['menu']);?>
+  </div>
 
 
   <?php print $messages; ?>
@@ -26,8 +26,9 @@
     </div>
   </div>
 
+
+</div>
+
   <footer class="footer" role="contentinfo">
     <?php print render($page['footer']); ?>
   </footer>
-</div>
-
