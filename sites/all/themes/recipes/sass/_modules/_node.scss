@@ -10,26 +10,46 @@
     margin-bottom: 10px;
 
     img {
-      display:block;
+      display: block;
       width: 100%;
+      border: 1px solid #e1e1e1;
+      margin: 10px 0;
+      padding: 5px;
+      box-shadow: #EEE 1px 1px 1px 1px;
     }
   }
 
   .field--name-field-ingredients {
     .field__label {
       border-bottom: 1px solid #ccc;
-      font-size: 1.3em;
+      color: $purple;
+      font-size: 1.8em;
+      font-weight: 100;
       margin-bottom: 10px;
       padding-bottom: 10px;
+    }
+    .field-items {
+      margin-bottom: 30px;
+    }
+    p {
+      line-height: 2;
     }
   }
 
   .field--name-field-directions{
     .field__label {
       border-bottom: 1px solid #ccc;
-      font-size: 1.3em;
+      color: $purple;
+      font-size: 1.8em;
+      font-weight: 100;
       margin-bottom: 10px;
       padding-bottom: 10px;
+    }
+    .field-items {
+      margin-bottom: 30px;
+    }
+    p {
+      line-height: 2;
     }
   }
 
