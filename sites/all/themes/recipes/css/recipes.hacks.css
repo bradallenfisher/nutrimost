@@ -1,11 +1,8 @@
 @media all and (max-width: 800px) {
-  /* line 3, ../sass/recipes.hacks.scss */
   #toolbar, #admin-menu {
     display: none; }
-
-  /* line 8, ../sass/recipes.hacks.scss */
   html body.toolbar, html body.admin-menu {
     padding-top: 0 !important;
     margin-top: 0 !important; } }
 
-/*# sourceMappingURL=recipes.hacks.css.map */
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicmVjaXBlcy5oYWNrcy5jc3MiLCJzb3VyY2VzIjpbInJlY2lwZXMuaGFja3Muc2NzcyJdLCJzb3VyY2VzQ29udGVudCI6WyIvLyBIaWRlIHRoZSB0b29sYmFyIG9yIGFkbWluIG1lbnUgb24gc21hbGwgc2NyZWVucy5cbkBtZWRpYSBhbGwgYW5kIChtYXgtd2lkdGg6IDgwMHB4KSB7XG4gICN0b29sYmFyLCAjYWRtaW4tbWVudSB7XG4gICAgZGlzcGxheTogbm9uZTtcbiAgfVxuXG4gIGh0bWwge1xuICAgIGJvZHkudG9vbGJhciwgYm9keS5hZG1pbi1tZW51IHtcbiAgICAgIHBhZGRpbmctdG9wOiAwICFpbXBvcnRhbnQ7XG4gICAgICBtYXJnaW4tdG9wOiAwICFpbXBvcnRhbnQ7XG4gICAgfVxuICB9XG59XG4iXSwibWFwcGluZ3MiOiJBQUNBLE1BQU0sQ0FBTixHQUFHLE1BQU0sU0FBUyxFQUFFLEtBQUs7RUFDdkIsUUFBUSxFQUFFLFdBQVcsQ0FBQztJQUNwQixPQUFPLEVBQUUsSUFBSyxHQUNmO0VBRUQsSUFBSSxDQUNGLElBQUksQUFBQSxRQUFRLEVBRGQsSUFBSSxDQUNZLElBQUksQUFBQSxXQUFXLENBQUM7SUFDNUIsV0FBVyxFQUFFLFlBQWE7SUFDMUIsVUFBVSxFQUFFLFlBQWEsR0FDMUIiLCJuYW1lcyI6W10sInNvdXJjZVJvb3QiOiIvc291cmNlLyJ9 */

@@ -1,7 +1,6 @@
 .view-ads {
   a {
 
-    @include fittext($min-media: 320px, $max-media: 1400px, $min-font-size: 1em, $max-font-size: 2em, $media-increment: 50, $font-increment: .1, $ratio: 1, $round: false);
     @include flexbox();
 
 

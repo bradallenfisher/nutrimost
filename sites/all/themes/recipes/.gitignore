@@ -1,5 +1,12 @@
-# Ignore the node modules folder (created by 'npm install').
+# osx noise
+.DS_Store
+profile
+
+#ignore sass caches
+.sass-cache
+
+#ignore node_modules
 node_modules
 
-# We absolutely don't want to have the .sass-cache in git.
-.sass-cache
+#ignore bower_components
+bower_components
