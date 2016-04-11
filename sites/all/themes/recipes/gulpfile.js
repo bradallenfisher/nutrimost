@@ -32,19 +32,19 @@ gulp.task('jshint', function() {
 /* compile scss files */
 gulp.task('build-css', function() {
   return gulp.src('src/scss/recipes.styles.scss')
-    .pipe(sourcemaps.init())
+    //.pipe(sourcemaps.init())
     .pipe(sassGlob())
     .pipe(sass())
-    .pipe(sourcemaps.write())
+    //.pipe(sourcemaps.write())
     .pipe(gulp.dest(output.css));
 });
 
 /* concat javascript files, minify if --type production */
 gulp.task('build-js', function() {
   return gulp.src(input.js)
-    .pipe(sourcemaps.init())
+    //.pipe(sourcemaps.init())
     .pipe(concat('scripts.min.js'))
-    .pipe(sourcemaps.write())
+    //.pipe(sourcemaps.write())
     .pipe(gulp.dest(output.js));
 });
 
