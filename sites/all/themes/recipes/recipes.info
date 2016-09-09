@@ -25,4 +25,5 @@ regions[header] = Header
 regions[menu] = Menu
 regions[content] = Content
 regions[side] = Side
+regions[latest] = Latest
 regions[footer] = Footer

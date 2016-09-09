@@ -26,6 +26,12 @@
 .amzn-item.amzn-shop-now-parent-icon {
   display: none !important;
 }
+#block-block-9 {
+  clear: both;
+}
+#block-block-12 {
+  clear: left;
+}
 #block-block-11 {
   clear:both;
   @include breakpoint($larger, true) {

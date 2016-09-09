@@ -24,6 +24,10 @@
     <div class="side">
       <?php print render($page['side']);?>
     </div>
+
+    <div class="latest">
+      <?php print render($page['latest']);?>
+    </div>
   </div>
 
 
