@@ -40,6 +40,7 @@ img.print-logo {border: 0;}
 }
 .header {display: none;}
 .navigation {display: none;}
+.print-link {display: none;}
 #block-block-11, #block-block-1, #block-block-9, #block-block-12, #block-search-form, #block-block-24, #block-block-25, #block-block-26 {display: none;}
 .print-source_url {font-size: small;}
 .print-links {font-size: small;}
