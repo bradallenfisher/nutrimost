@@ -651,6 +651,9 @@ h6 {
 .field--name-body {
   padding: 20px; }
 
+#block-views-recipes-block-1 {
+  clear: both; }
+
 .notice {
   border: 1px solid #9E599E;
   background: #f9f9f9;
