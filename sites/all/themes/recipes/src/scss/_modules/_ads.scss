@@ -29,6 +29,6 @@
 #block-block-11 {
   clear:both;
   @include breakpoint($larger, true) {
-
+    clear:none;
   }
 }

@@ -307,6 +307,9 @@ img, media {
 
 #block-block-11 {
   clear: both; }
+  @media (min-width: 1300px) {
+    #block-block-11 {
+      clear: none; } }
 
 .views-field-addtoany-link {
   clear: both; }
